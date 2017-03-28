@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <style>
+    body {
+      background-color: #ecedec;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="jumbotron text-center">
+    <h1><span class="glyphicon glyphicon-bullhorn"></span></h1>
+    <h2>Customers</h2>
+  </div>
+  
+  <div class="row">
+      <ul class="list-group">
+        <li class="list-group-item active"><%= cusId  %> - <%= cusName %></li>
+        <li class="list-group-item"><%= cusAddress1 %></li>
+        <li class="list-group-item"><%= cusAddress2 %></li>
+        <li class="list-group-item"><%= cusAddress3 %></li>
+        <li class="list-group-item"><%= cusTown %></li>
+        <li class="list-group-item"><%= cusCounty %></li>
+        <li class="list-group-item"><%= cusPostCode %></li>
+        <li class="list-group-item"><%= cusCountryCode %></li>
+        <li class="list-group-item"><%= cusCreatedDate %></li>
+        <li class="list-group-item"><%= cusCreatedBy %></li>
+
+      </ul> 
+   </div>
+
+
+</div>
+
+</body>
+</html>
