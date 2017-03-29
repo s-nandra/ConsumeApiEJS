@@ -9,9 +9,9 @@ node server
 
 
 # Summary
-Time spent: 1 day working on and off through the weekend.
-Tools used: postman, bootstrap, node, npm, express server, nodemon and superagent to build the api.
-Issues: I spent most of my time getting the bearer token to work as this was not being sent properly within the api, I reformatted this and eventually got the authourization to work. 
-I have assuemed that there are foregign id fields within the customerPerson and equipment data which maps to the corresponding customer classes.
+> **Time spent:** 1 day working on and off through the weekend.
+> **Tools used:** postman, bootstrap, node, npm, express server, nodemon and superagent to build the api.
+> **Issues:** I spent most of my time getting the bearer token to work as this was not being sent properly within the api, I reformatted this and eventually got the authourization to work. 
+> I have assuemed that there are foregign id fields within the customerPerson and equipment data which maps to the corresponding customer classes.
 
 
