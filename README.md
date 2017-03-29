@@ -13,8 +13,8 @@ node server
 
 > **Tools used:** postman, bootstrap, node, npm, express server, nodemon and superagent to build the api.
 
-> **Issues:** I spent most of my time getting the bearer token to work as this was not being sent properly within the api, I reformatted this and eventually got the authourization to work. 
+> **Issues:** I spent most of my time getting the bearer token to work as this was not being sent properly within the api, I reformatted this and eventually get the authorization to work. 
 
-> I have assuemed that there are foregign id fields within the customerPerson and equipment data which maps to the corresponding customer classes.
+> I have assumed that there are foreign id fields within the customer Person and equipment data which maps to the corresponding customer classes.
 
 
